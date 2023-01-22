@@ -11,7 +11,7 @@ function App5(){
     return (
     <Router>
         <Routes>
-            <Route path={`${process.env.PUBLIC_URL}/movie`} element={<Home/>}/>
+            <Route path={`${process.env.PUBLIC_URL}/`} element={<Home/>}/>
             <Route path='/movie/:id' element={<Detail/>}/>
         </Routes>
     </Router>
